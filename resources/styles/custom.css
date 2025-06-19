@@ -19,3 +19,116 @@ Available classes:
 .atrament-container-scene   Scene container div
 .atrament-scene             Scene content div
 */
+
+:root {
+	--line-thickness: 2px;
+	--game-font-size: 16px;
+	/* --game-line-height: calc(1ex / 0.32); */
+	--game-line-height: 1.5;
+	--font-interface: "Iosevka Term Slab", monospace;
+}
+
+body {
+	font-size: var(--game-font-size);
+}
+
+h1 {
+	font-weight: var(--h1-font-weight);
+}
+
+.second-face {
+	font-style: italic;
+}
+
+/* Рамки у всех кнопок */
+[class*="link_menu"], [class*="link_home"] {
+	border-width: var(--line-thickness) !important;
+}
+
+/* Горизонтальная линия под тулбарами */
+[class*="toolbar"], [class*="overlay_header"] {
+	min-height: 3rem !important;
+	border-width: var(--line-thickness) !important;
+}
+
+/* Ширина текстового поля — не более 80 символов */
+.atrament-container {
+	max-width: 80ch;
+	margin: auto;
+}
+
+/* Стиль для параграфа с плитками фото */
+[class*="paragraph"]:has(>.unvisited, .visited) {
+	display: grid !important;
+	grid-template-columns: repeat(3, 1fr);
+	grid-template-rows: repeat(3, 5lh);
+	gap: 1ch;
+}
+
+/* Стиль для всех плиток фото */
+.unvisited > a, .visited > a {
+	display: block;
+	height: 100%;
+	text-align: center;
+	align-content: center;
+	text-decoration: none;
+	padding: 1ch;
+	border-width: var(--line-thickness);
+}
+
+/* Стиль для плиток фото, ещё не посещённых */
+.unvisited > a {
+	border-style: solid;
+}
+
+/* Стиль для плиток фото, уже посещённых */
+.visited > a {
+	border-style: dotted;
+}
+
+.last-photo {
+	grid-column: 2;
+	grid-row: 2;
+}
+
+/* Стиль для ссылки-возврата на экран с плитками фото */
+.goto {
+	display: block;
+    text-align: center;
+}
+.goto > a {
+	font-size: 2rem;
+	text-decoration: none;
+}
+
+/*
+ КНОПКИ ВНУТРИ ПАРАГРАФОВ
+*/
+
+[class*="paragraph"]>button {
+	/* color: var(--bg-color);
+	background-color: var(--fg-color); */
+	font-weight: bold;
+	padding: 0;
+	border: none;
+}
+
+[class*="paragraph"]>button:hover {
+	color: inherit;
+	background-color: inherit;
+}
+
+[class*="paragraph"]>button:after {
+	content: '|';
+}
+
+[class*="paragraph"]>button:before {
+	content: '|';
+}
+[class*="paragraph"]>button:hover:after {
+	content: ']';
+}
+
+[class*="paragraph"]>button:hover:before {
+	content: '[';
+}

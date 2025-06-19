@@ -26,7 +26,7 @@ export default async function atramentInit(atrament, Story) {
       animation: true,
       mute: false,
       volume: 50,
-      fontSize: 100
+      // fontSize: 100
     }
   });
   atrament.on('game/start', () => onGameStart(atrament));

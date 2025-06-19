@@ -5,7 +5,7 @@
   display: flex;
   flex-direction: column;
   overflow: auto;
-  line-height: calc(1ex / 0.32);
+  line-height: var(--game-line-height);
   font-family: var(--font-game);
   font-size: var(--game-font-size);
 }
