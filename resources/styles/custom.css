@@ -25,7 +25,7 @@ Available classes:
 	--game-font-size: 16px;
 	/* --game-line-height: calc(1ex / 0.32); */
 	--game-line-height: 1.5;
-	--font-interface: "Iosevka Term Slab", monospace;
+	--font-interface: "Iosevka Term Slab";
 }
 
 body {
@@ -132,11 +132,11 @@ h1 {
 	border: none;
 }
 
-[class*="paragraph"]>button:hover {
-	/* color: inherit;
+/* [class*="paragraph"]>button:hover {
+	color: inherit;
 	background-color: inherit;
-	font-weight: bold; */
-}
+	font-weight: bold;
+} */
 
 [class*="paragraph"]>button:after {
 	content: '|';
