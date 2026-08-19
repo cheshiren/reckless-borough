@@ -33,3 +33,5 @@ tools/neutralino/*
 *.njsproj
 *.sln
 *.sw?
+
+.agents/

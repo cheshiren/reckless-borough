@@ -1,11 +1,11 @@
 {
-  "name": "Atrament Web UI demo",
+  "name": "A Shopping Trip to Reckless Borrough",
   "short_name": "atrament-web-ui",
   "description": "Atrament Web UI - shell for Ink games",
   "theme": "light",
   "font": "Iosevka Term Slab",
-  "language": "ru",
-  "locale": "ru-RU",
+  "language": "en",
+  "locale": "en-EN",
   "game": {
     "path": "game",
     "source": "reckless-borough.ink"

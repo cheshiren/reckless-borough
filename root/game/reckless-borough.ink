@@ -4,10 +4,10 @@
 // # debug
 # toolbar: game_toolbar
 
-# title: Поход за покупками в Лихой Город
-# author: Вячеслав Добранов
+# title: A Shopping Trip to Reckless Borrough
+# author: Vyacheslav Dobranov
 
-VAR title = "Поход за покупками в Лихой Город"
+VAR title = "A Shopping Trip to Reckless Borrough"
 
 VAR ph1_link = 0
 VAR ph2_link = 0
@@ -28,7 +28,7 @@ VAR ph6_label = 0
 VAR ph7_label = 0
 VAR ph8_label = 0
 VAR ph9_label = 0
-VAR ph10_label = "Папа"
+VAR ph10_label = "Dad"
 
 VAR ph1_obj = 0
 VAR ph2_obj = 0
@@ -79,13 +79,13 @@ LIST objs = (market_obj), (mecha_obj), (_67_obj), (jaipur_obj), (red_obj), (dog_
 ////////////// DELETEME //////////////
 
 # CLASS: second-face
-# PLAY_MUSIC: nomad.mp3
-…Ты раскрываешь детскую книгу и из неё высыпается ворох цветных прямоугольников — с десяток фотографий разлетаются по кровати. Изображения на пластинках статичные, но судя по слабому ЭМИ, какая-то логика в них всё же вшита. Ты машинально делаешь несколько жестов пальцами, и джинн сканирует каждый из прямоугольников. Всё чисто. Вздыхаешь, подключаешь метаданные снимков к своему цифровому слою и тянешься к одному из ярлыков, повисших над фотографиями…
+// # PLAY_MUSIC: nomad.mp3
+…You open the children’s book and a pile of colorful rectangles tumbles out — a dozen or so photos scatter across the bed. The images on the plastic plates are static, but judging by the faint EMI, some logic is still baked into them. You idly flick a few gestures with your fingers, and the djinn scans each of the rectangles. All clear. You sigh, hook the photos’ metadata into your digital layer, and reach for one of the tags appeared over the images…
 
 + [>>>(clickable=5 animation=5)] -> photos
 
 = photos
-~ title = "Поход за покупками в Лихой Город"
+~ title = "A Shopping Trip to Reckless Borrough"
 
 {TURNS_SINCE(ph1_link) == -1:
 		<>[css class=unvisited][link=ph1]{ph1_label}[/link][/css]<>
@@ -155,14 +155,15 @@ LIST objs = (market_obj), (mecha_obj), (_67_obj), (jaipur_obj), (red_obj), (dog_
 	~ cooling_towers++
 	~ cooling_towers_market = cooling_towers
 }
-Практически идеально выверенная перспектива — главный проход, сжатый уступами прилавков, разрезает пространство рынка, начинаясь от места съёмки и устремляясь в туманный фокус. Зигзаги гирлянд и фонариков расчерчивают небо над проходом, пёстрая толпа покупателей перемешивается с многоцветием товаров.
+
+A near-perfect perspective — the main aisle, squeezed between the stalls’ terraces, slices through the market space, stretching from the camera position into a hazy vanishing point. Zigzags of garlands and unlit lanterns crisscross the sky above the aisle, while a motley crowd of shoppers mingles with the kaleidoscope of goods.
 
 {cooling_towers_market:
-	- 1: Далеко на фоне поднимаются из тумана колоссы трёх градирен, уже более двадцати лет не работающих. Их серая вертикальная поверхность покрыта жилыми постройками [button=squat]сквоттеров[/button], как киль корабля ракушками.
-	- 2: Далеко на фоне поднимаются из тумана всё те же градирни, захваченные [button=squat]сквоттерами[/button].
+	- 1: Far in the background, the colossi of three cooling towers — idle for more than twenty years now — rise out of the mist. Their gray, vertical flanks are covered with [button=squat]squatters’[/button] dwellings like a ship’s hull with barnacles.
+	- 2: Far in the background, the same cooling towers rise out of the mist, seized by [button=squat]squatters[/button].
 }
 
-В воздухе висит желтоватая дымка [button=pollen]пыльцы[/button]. Её разводы покрывают внутреннюю чашу самодельного влагоуловителя, чей блеск в углу — единственное, что нарушает симметрию снимка.
+A yellowish haze of [button=pollen]pollen[/button] hangs in the air. Its streaks coat the inner bowl of a homemade moisture trap, whose glint in the corner is the only thing that breaks the photograph’s symmetry.
 
 [css class=goto][link=photos]‹[/link][/css]
 + [photos] -> photos
@@ -177,16 +178,16 @@ LIST objs = (market_obj), (mecha_obj), (_67_obj), (jaipur_obj), (red_obj), (dog_
 	~ cooling_towers++
 	~ cooling_towers_mecha = cooling_towers
 }
-Селфи. <>
+Selfie. <>
 {boy_mecha:
-	- 1: Веснушчатое лицо мальчика лет одиннадцати с копной рыжих волос.
-	- 2: Снова рыжий мальчик.
+	- 1: The freckled face of a boy with a shock of red hair.
+	- 2: The red-haired boy again.
 }
-<> Он щурится на ярком солнце и широко улыбается, возможно, смеётся. Рядом с ним жмурится и показывает язык другой мальчик, его виски выбриты, на скулах — характерные красные полосы от VR-гарнитуры. С другой стороны от оператора — задумчивая девушка в хиджабе держит на руках малолетнего брата. Малыш тянет в объектив свою игрушку — красно-белого пластикового робота-ме́ха без руки.
+<> He squints in the bright sun and grins wide, maybe laughing. Beside him another boy screws up his face and sticks tongue out — his temples are shaved, and his cheekbones red from a VR headset. On the other side a pensive girl in a hijab holds her little brother in her arms. The toddler pushes his toy toward the lens — a red-and-white plastic mecha robot missing an arm.
 
 {cooling_towers_mecha:
-	- 1: На фоне детей видны колоссы трёх градирен, уже более двадцати лет не работающих. Их серая вертикальная поверхность покрыта жилыми постройками [button=squat]сквоттеров[/button], как киль корабля ракушками.
-	- 2: На их фоне — всё те же градирни.
+	- 1: In kids’ background loom the colossi of three cooling towers — idle for more than twenty years now — rise out of the mist. Their gray, vertical flanks are covered with [button=squat]squatters’[/button] dwellings like a ship’s hull with barnacles.
+	- 2: Behind them — the same cooling towers.
 }
 
 [css class=goto][link=photos]‹[/link][/css]
@@ -194,11 +195,11 @@ LIST objs = (market_obj), (mecha_obj), (_67_obj), (jaipur_obj), (red_obj), (dog_
 
 = _67(label)
 ~ title = label
-Под оранжевым навесом из поликарбоната — террасы лотков с фруктами. Манго, ананасы, бананы, гуава, апельсины, ямс, рамбутан, мангустины, абрикосы, гранаты, киви, личи, инжир, маракуйя, папайя. Солнечный оранжевый свет, пропущенный сквозь навес, преломляется в водяной взвеси, распыляемой невидимыми форсунками. Над душистыми, росяными развалами висит минирадуга.
+Under an orange polycarbonate awning, rows of fruit stalls rise in terraces. Mangoes, pineapples, bananas, guavas, oranges, yams, rambutans, mangosteens, apricots, pomegranates, kiwis, lychees, figs, passion fruit, papayas. Orange sunlight filters through the polycarbonate and refracts through a fine water mist sprayed by hidden nozzles. A tiny rainbow arcs over the fragrant, dewy heaps.
 
-На ближние к выходу пирамидки орехов брошены несколько мятых листов так, чтобы их было видно от главного прохода. На листах, периодически меняя язык, мигают сообщения:  
-«Все фрукты одного производителя! Идентичные естественно выращенным!»
-«Содержание генно-модифицированных тканей — не более 67%!»
+A few crumpled sheets are tossed onto the nut pyramids nearest the exit, positioned just so they catch the eye from the main walkway. The sheets flash messages that cycle through languages:
+“All fruit from a single producer! Identical to naturally grown!”
+“Genetically modified tissue content — no more than 67%!”
 
 [css class=goto][link=photos]‹[/link][/css]
 + [photos] -> photos
@@ -211,12 +212,12 @@ LIST objs = (market_obj), (mecha_obj), (_67_obj), (jaipur_obj), (red_obj), (dog_
 	~ sideway_jaipur = sideway
 }
 {sideway_jaipur:
-	- 1: Вид сквозь боковой проход:
-	- 2: Вид сквозь ещё один боковой проход:
+	- 1: View of a side alley:
+	- 2: View of another side alley:
 }
-<> редкая толпа окружила площадку, на которой группа подростков играет в [button=kabaddi]кабадди[/button]. Снимок сделан как раз в тот момент, когда нападающий одной из команд прыгает, чтобы вернуться на свою половину. Его загорелая рука вытянулась к разделительной линии, пытаясь достать её самыми кончиками пальцев. Двое оппонентов повисли у него на ногах, третий тянет за поношенную розовую джерси с логотипом [button=jpp]«Jaipur Pink Panthers»[/button].
+<> a sparse crowd rings the court where a group of teenagers plays [button=kabaddi]kabaddi[/button].  The shot catches the exact moment when a player from attacking team leaps to return to their half. His sun-browned arm stretches toward the dividing line, reaching for it with just the tips of his fingers. Two opponents cling to his legs, a third yanks at a faded pink jersey with the [button=jpp]“Jaipur Pink Panthers”[/button] logo.
 
-Предельное напряжение на мокрых от пота лицах, белозубые оскалы, пыльные руки. Глаз не видно — все участники в линзах, через которые ИскИн показывает им состояние игры: счёт, границы площадки, статистику игроков. За отдельную плату — тренерские советы и отключение рекламы. За отдельную договорённость с устроителями — развесовку ставок.
+Peak tension on sweat-slicked faces, white teeth bared, dusty hands. Eyes invisible — all players wear lenses through which djinns show them the game state: score, court boundaries, player stats. For an extra fee — coaching tips and ad removal. For a separate arrangement with the organizers — the bets’ state.
 
 [css class=goto][link=photos]‹[/link][/css]
 + [photos] -> photos
@@ -240,39 +241,40 @@ LIST objs = (market_obj), (mecha_obj), (_67_obj), (jaipur_obj), (red_obj), (dog_
 	~ arm_red = arm
 }
 {inner_space_red:
-	- 1: Снимок, снятый внутри уличной закусочной.
-	- 2: Снова снимок изнутри помещения. На этот раз уличной закусочной.
+	- 1: Shot taken inside a street eatery.
+	- 2: Another inside shot. This time — a street eatery.
 }
-<> На переднем плане — белый кафель прилавка, заставленного суповыми чашками, специями, упаковками палочек, соусными бутылками, салфетницами. За прилавком — тесная кухня, в которой быстро и ловко — как танцовщики — работают сутулый старик и его помощница-подросток: тянут лапшу из брикетов мицелия, шинкуют яркие овощи с тиснёнными [button=logos]лого[/button], нарезают круглые ломтики из цилиндров искусственной говядины. В другом углу кухни, в клубах пара, робот-манипулятор переливает горячий бульон из кастрюли в кастрюлю. На его верхний сустав повязан красный платок, такой же как у хозяев.
+<> Foreground: a white tile counter lined with soup bowls, spice jars, chopstick packs, sauce bottles, napkin holders. Behind the counter — a cramped kitchen where a stooped old man and his teenage assistant move quickly and deftly — like dancers: pulling noodles from mycelium bricks, shredding bright vegetables with embossed [button=logos]logos[/button], slicing round wafers from cylinders of artificial beef. In the other corner of the kitchen, wreathed in steam, a robotic arm pours hot broth from pot to pot. Tied to its upper joint is a red kerchief, the same as the owners’.
 
-Задняя стенка закусочной — зеркальная, в ней отражается <>
+The back wall of the eatery is mirrored. Reflected in it: <>
 {boy_red:
-	- 1: веснушчатый рыжий мальчик лет одиннадцати
-	- 2: рыжий мальчик
+	- 1: the freckled red-haired boy of about eleven
+	- 2: the red-haired boy
 }
-<>, снимающий из-за прилавка на большой антикварный [button=polaroid]Полароид[/button], и <>
+<> shooting from behind the counter on a large antique [button=polaroid]Polaroid[/button], and <>
 {man_red:
-	- 1: угрюмый
-	- 2: тот же
+	- 1: a gloomy
+	- 2: the same
 }
-<> седой мужчина рядом. <>
+<> white-haired man beside him. <>
 {arm_red:
-	- 1: Вместо правой руки у мужчины — восьмипалый [button=prothesis]протез[/button] бывшего военного.
-	- 2: Видно, что уже знакомый восьмипалый протез — это правая рука мужчины.
+	- 1: Man’s right hand — an eight-fingered [button=prothesis]prosthetic[/button], former military.
+	- 2: One can see that the familiar eight-fingered prosthetic is the man’s right hand.
 }
-<> Четыре палочки, зажатые в нём, удерживают сразу полчашки лапши. За их спинами — очередь посетителей и слепящий полуденный зной.
+<> Four chopsticks clamped in it hold half a bowl of noodles at once. Behind them — a queue of customers and the blinding midday heat.
 
 [css class=goto][link=photos]‹[/link][/css]
 + [photos] -> photos
 
 = dog(label)
 ~ title = label
-Инженерная [button=aic]«Айка»[/button] лежит под прилавком, прячась от зноя. Когда-то в прошлом — боевая единица, полудрон-полусобака. В последствии, после отключения от сети и тактического джинна — только полусобака.
+Engineer [button=aic]“Aicah”[/button] lies under the counter, hiding from the heat. Once, in its past life — a combat unit, half-drone, half-dog. After disconnection from the network and its tactical djinn — just half-dog.
 
-Вместо правой передней лапы — титановая полусфера на тонкой, сложносочленённой конечности. К матово-гладкому титановому черепу прикреплены пара неуклюжих глаз — явный новодел, уступающий изяществу старых военных протезов. Эмпатическая попытка хозяина восстановить зрение отключённому инвалиду. Заодно, может быть, и слух. Но точно не нюх.  
-На нагруднике, поверх едва угадываемой эмблемы ЧВК, кто-то нацарапал ехидное [button=three]«三足狗»[/button].
+In place of its right foreleg — a titanium hemisphere on a thin, intricately jointed limb. A pair of clumsy eyes fastened to the matte-smooth titanium skull — clearly a replacement, inferior to the grace of the old military prosthetics. Its owner’s empathetic attempt to restore sight to a disabled, disconnected veteran. Perhaps hearing too. But definitely not smell.
 
-Весь этот титан и кремний наверняка ещё числятся где-то на орбитальных серверах, тысячи раз сменившие владельцев и тысячи раз забытые, архивированные с примечанием «Вернуть после окончания службы и/или смерти животного».
+On the chest plate, over the barely discernible PMC emblem, someone has scratched a mocking [button=three]“三足狗”[/button].
+
+All that titanium and silicon must still be registered somewhere on orbital servers, thousands of times traded and thousands of times forgotten, archived with the note: “To be returned upon completion of service and/or death of the animal.”
 
 [css class=goto][link=photos]‹[/link][/css]
 + [photos] -> photos
@@ -288,28 +290,28 @@ LIST objs = (market_obj), (mecha_obj), (_67_obj), (jaipur_obj), (red_obj), (dog_
 	~ sack_coffee = sack
 }
 {arm_coffee:
-	- 1: Крупный план старого военного [button=prothesis]протеза[/button] с восемью пальцами, которые сжимают <>
+	- 1: Close-up of the old military [button=prothesis]prosthetic[/button] — eight fingers clamp <>
 	{sack_coffee:
-		- 1: полукилограммовый джутовый мешок
-		- 2: джутовый мешок с прошлого снимка
+		- 1: a half-kilogram jute sack
+		- 2: the jute sack from one of the the former shots
 	}
 	<>.
-	- 2: Крупный план: в восьмипалом протезе зажат <>
+	- 2: Close-up: clamped in the eight-fingered prosthetic — <>
 	{sack_coffee:
-		- 1: полукилограммовый джутовый мешок
-		- 2: джутовый мешок с прошлого снимка
+		- 1: a half-kilogram jute sack
+		- 2: the jute sack from the former shot
 	}
 	<>.
 }
-<> Сверху мешок прострочен красной нитью, её концы спаяны круглой печатью с оттиском радиальной [button=datamatrix]датаматрицы[/button]. Красными же чернилами на мешок нанесена надпись: [button=hydro]«Café hidropônico de São Paulo»[/button].
+<> The sack is topstitched with red thread, its ends sealed with a round stamp bearing a radial [button=datamatrix]datamatrix[/button] imprint. In the same red, an ink label:  [button=hydro]“Café hidropônico de São Paulo”[/button].
 
-Сбоку к мешку подвязан пучок коричных палочек, слишком одинаковых, чтобы быть натуральными.
+Tied to the side of the sack — a bundle of cinnamon sticks, too uniform to be natural.
 
 {arm_coffee:
-	- 1: На одном из
-	- 2: При таком увеличении на одном из восьми
+	- 1: One of the eight
+	- 2: At this magnification, one of the eight
 }
-<> титановых пальцев различима кольцевая гравировка: «Спаси и сохрани».
+<> titanium fingers reveals a ring engraving: [button=save]“Спаси и сохрани”[/button].
 
 [css class=goto][link=photos]‹[/link][/css]
 + [photos] -> photos
@@ -320,15 +322,16 @@ LIST objs = (market_obj), (mecha_obj), (_67_obj), (jaipur_obj), (red_obj), (dog_
 	~ sideway++
 	~ sideway_158 = sideway
 }
-Снимок <>
+Shot of <>
 {sideway_158:
-	- 2: другого
+	- 1: a
+	- 2: another
 }
-<> бокового проулка. В центре — молодой рабочий показывает в камеру жест с оттопыренными большим пальцем и мизинцем. На его плечах — по стокилограммовой бухте кабеля. На лицо надета «маска должника»: несъёмный респиратор с контейнерами нейролептика. Расширенные зрачки спрятаны от полуденного солнца за чёрными линзами. На лбу — широкий кусок пластыря с цифрами [button=theft]«158»[/button]. Ремни плохо подогнанного экзоскелета натёрли кожу. Голый тощий торс мокрый от пота, цветастые шорты, сланцы.
+<> side alley. Center frame: a young worker flashes the camera a gesture with thumb and pinky extended. On his shoulders — a hundred-kilogram coil of cable each. His face is hidden behind a “debtor’s mask” — a non-removable respirator with neuroleptic canisters. Dilated pupils shielded from the midday sun behind black lenses. Forehead: a broad strip of tape bearing the digits [button=theft]“158”[/button]. Straps of a poorly fitted exoskeleton have chafed the skin raw. Bare gaunt torso slick with sweat. Bright shorts. Flip-flops.
 
-За его спиной двое других рабочих в точно таких же масках и экзоскелетах откапывают старую кабельную трассу. Над ними висит микродрон с чёрным зрачком камеры — кто-то удалённо следит за работой.
+Behind him, two other workers in identical masks and exoskeletons dig up an old cable trunk. A micro-drone with a black camera pupil hovers above them — someone watching the work remotely.
 
-Ни федеральная, ни муниципальная власть, ни корпоративные суверенитеты не распространяются на территорию Лихого Города, поэтому рабочие, скорее всего, отрабатывают свой долг перед местным синдикатом.
+Neither federal nor municipal authority, nor corporate sovereignties extend over the territory of Reckless Borough, so the workers are most likely off their debt to the local syndicate.
 
 [css class=goto][link=photos]‹[/link][/css]
 + [photos] -> photos
@@ -349,35 +352,35 @@ LIST objs = (market_obj), (mecha_obj), (_67_obj), (jaipur_obj), (red_obj), (dog_
 }
 {inner_space_pharm:
 	- 1: Снимок, снятый внутри тесной аптеки.
-	- 2: Снова снимок изнутри помещения. На этот раз уличной аптеки.
+	- 2: Another inside shot. This time — a street pharmacy.
 }
-<> Прозрачная перегородка отделяет зону покупателей от остального помещения. На переднем плане, за перегородкой — стеклянный куб фарм-принтера. Стробоскопические вспышки в его рабочем объёме — «печатается» заказанное кем-то лекарство: нужные молекулы спекаются из газообразного сырья по инструкциям из лицензионного рецепта.
+<> A transparent partition separates the customer area from the rest of the space. In the foreground, behind the partition — a glass cube of a pharma-printer. Stroboscopic flashes inside its working volume: someone’s medication is being printed — the right molecules sintered from gaseous feedstock following instructions of a licensed prescription.
 
-На ближайшей стенке принтера — большая наклейка с текстом, каждые пару минут сменяющим язык:<br><>
-• Предупреждение об уголовной ответственности за использование нелицензионных матриц;<br><>
-• Предупреждение о федеральном законе по защите авторских прав, допускающему вред здоровью нарушителя;<br><>
-• Реклама тестовых препаратов по низким ценам.
+On the nearest wall of the printer — a large sticker with text cycling languages every couple of minutes:<br><>
+• A warning of criminal liability for use of unlicensed matrices;<br><>
+• A warning of the federal copyright protection law permitting harm to the health of an infringer;<br><>
+• An advertisement for test medications at low prices.
 
-На заднем плане — шкафы, заставленные склянками с надписями [button=devanagari]деванагари[/button]. Под ними старик-аптекарь что-то мешает в каменной ступке, не обращая внимания на покупателей.
+In the background — cabinets lined with jars bearing [button=devanagari]Devanagari[/button] labels. Beneath them, an old apothecary stirs something in a stone mortar, paying no attention to customers.
 
-В правой стороне снимка — <>
+On the right side of the frame — <>
 {man_pharm:
-	- 1: угрюмый седой мужчина
-	- 2: уже знакомый седой мужчина
+	- 1: some white-haired man
+	- 2: the same white-haired man
 }
-<> изучает рецепт на листе пластика, криво приклеенного с внутренней стороны перегородки. Подмышкой мужчина держит <>
+<> studies a prescription on a sheet of plastic, crookedly taped to the inner side of the partition. Under his arm he holds <>
 {sack_pharm:
-	- 1: джутовый мешок с неразличимой надписью
-	- 2: мешок с кофе
+	- 1: a jute sack with an indecipherable inscription
+	- 2: the sack of coffee
 }
-<> и красный [button=cig]сигаретный блок[/button].
+<> and a red [button=cig]cigarette pack[/button].
 
 [css class=goto][link=photos]‹[/link][/css]
 + [photos] -> photos
 
 = interlude
 # CLASS: second-face
-…Ты замечаешь ещё одну фотографию под всеми остальными. Если бы не моргнувший ярлык, ты бы её даже не увидел…
+…You notice yet another photograph beneath all the others. If not for the blinked tag, you’d have never seen it…
 + [>>>(clickable=3 animation=3)] -> photo10
 
 = photo10
@@ -385,27 +388,27 @@ LIST objs = (market_obj), (mecha_obj), (_67_obj), (jaipur_obj), (red_obj), (dog_
 + [ph10] -> dad
 
 = dad
-Групповое фото у входа на Рынок. Все дети собрались для общего снимка. В центре — рыжий мальчик в инвалидной коляске. Улыбается, машет в камеру, держит на коленях подаренного робота-ме́ха. Седой ветеран стоит рядом, положив левую — здоровую — руку мальчику на плечо. Он не улыбается, просто смотрит в камеру. В другой руке у него — белый пакет с покупками.
+Group photo at the entrance to the Market. All the children gathered for a shot together. Center frame — the red-haired boy in a wheelchair. Smiling, waving at the camera, the gifted mecha robot on his lap. The white-haired veteran stands beside him, placing his left — healthy — hand on the boy’s shoulder. He doesn’t smile, just looks at the camera. In his other hand — a white shopping bag.
 
-За их спинами сквот, облепивший градирни, выпускает первых воздушных змеев, чтобы поймать вечерние восходящие потоки.
+Behind them, the squat clinging to the cooling towers releases the first kites to catch the evening updrafts.
 
-Пора возвращаться домой.
+Time to go home.
 
 [css class=goto][link=outro]‹[/link][/css]
 + [outro] -> outro
 
 = outro
 # CLASS: second-face
-…Ты задерживаешь внимание на неулыбчивом лице мужчины. Коротко остриженные, рано поседевшие волосы. Плотно сжатый рот. За взглядом серых глаз — затаённая бессильная ярость. Взгляд отца, который не в силах поставить своего ребёнка на ноги в несправедливом мире, полном технологических чудес.
+…Your gaze lingers on the man’s unsmiling face. Closely cropped, prematurely white hair. Tightly compressed lips. Behind his gray eyes — a simmering, helpless rage. Eyes of a father, powerless to set his child on their feet in an unjust world full of technological wonders.
 # CLASS: second-face
-«Да уж. Подвели мы тебя, а, Серёг?» — ты переводишь взгляд на единственное окно, за которым всё падает и падает снег. В погожий день отсюда — с самой вершины Сквота — наверное, отличный вид на весь Лихой Город.
+“Well, Sergey. We really let you down, didn’t we?” — you shift your gaze to the only window, beyond which snow keeps falling and falling. On a clear day, from here — the very top of the Squat — must be a fine view over all of Reckless Borough.
 # CLASS: second-face
-Потом встряхиваешься, собираешь все фотографии обратно в книгу, даёшь команду джинну отослать все новые данные в офис и продолжаешь обыск. До конца дежурства ещё час, нужно успеть осмотреть остальное помещение…
+Then you shrug it off, gather all the photographs back into the book, order the djinn to send all the new data to the office, and continue the search. An hour left until the end of your shift — you have to inspect the rest of the premises…
 + [>>>(clickable=10 animation=10)] -> theend
 
 = theend
 # CLASS: centered
-Вячеслав Добранов<br>2025
+Vyachelsav Dobranov<br>2025-26
 -> END
 
 === function game_toolbar()
@@ -414,7 +417,7 @@ LIST objs = (market_obj), (mecha_obj), (_67_obj), (jaipur_obj), (red_obj), (dog_
 === function squat()
 	[title]Сквот[/title]
 	[table]<>
-		[header]ИскИн - справка[/header]<>
+		[header]ArtIn - a reference[/header]<>
 		[row]Незаконные постройки на территории бывшей ТЭЦ-21 по адресу: Москва, ул. Ижорская, 9.[/row]<>
 		[row]ТЭЦ выведена из эксплуатации в 2031 году, с тех пор территория официально заброшена.[/row]<>
 		[row]С 2036 происходит стихийный самозахват маргинальными элементами, ускоренный послевоенным кризисом.[/row]<>
@@ -426,14 +429,14 @@ LIST objs = (market_obj), (mecha_obj), (_67_obj), (jaipur_obj), (red_obj), (dog_
 === function pollen()
 	[title]Пыльца[/title]
 	[table]<>
-		[header]ИскИн - справка[/header]<>
+		[header]ArtIn - a reference[/header]<>
 		[row]Пыльца одной из мутаций берёзы пушистой. Появление новых, обильно пылящих, видов — побочный фактор глубокой генной модификации сельскохозяйственных культур на территории Китайской Сибири.[/row]<>
 		[row]В 2042 году создан межкорпоративный орган для поиска решений по сохранению «старых» видов флоры и купированию распространения новых.[/row]<>
 	[/table]
 === function kabaddi()
 	[title]Кабадди[/title]
 	[table]<>
-		[header]ИскИн - справка[/header]<>
+		[header]ArtIn - a reference[/header]<>
 		[row]Командная игра с элементами борьбы и салок. Одна из древнейших известных игр, изначально распространённая среди народов Индии.[/row]<>
 		[row]Повсеместное распространение получила с потоками беженцев, расселившихся по миру.[/row]<>
 		[row]Популярность обусловлена так же отсутствием необходимого спортинвентаря — достаточно ровной прямоугольной площадки.[/row]<>
@@ -441,7 +444,7 @@ LIST objs = (market_obj), (mecha_obj), (_67_obj), (jaipur_obj), (red_obj), (dog_
 === function jpp()
 	[title]Jaipur Pink Panthers[/title]
 	[table]<>
-		[header]ИскИн - справка[/header]<>
+		[header]ArtIn - a reference[/header]<>
 		[row]Изначально, JPP — команда Профессиональной Лиги Кабадди из Джайпура, штат Раджастхан, Индия.[/row]<>
 		[row]До закрытия «старой» Лиги — обладательница пяти чемпионских титулов.[/row]<>
 		[row]После воссоздания ПЛК в 2036 году трижды выходила в полуфинал, но титулы не выигрывала.[/row]<>
@@ -451,7 +454,7 @@ LIST objs = (market_obj), (mecha_obj), (_67_obj), (jaipur_obj), (red_obj), (dog_
 === function logos()
 	[title]Лого[/title]
 	[table]<>
-		[header]ИскИн - справка[/header]<>
+		[header]ArtIn - a reference[/header]<>
 		[row]«Xianbeilia Agricultural Equipment»[/row]<>
 		[row]«Bayer CropScience»[/row]<>
 		[row]«COFCO Россия»[/row]<>
@@ -459,14 +462,14 @@ LIST objs = (market_obj), (mecha_obj), (_67_obj), (jaipur_obj), (red_obj), (dog_
 === function polaroid()
 	[title]Полароид[/title]
 	[table]<>
-		[header]ИскИн - справка[/header]<>
+		[header]ArtIn - a reference[/header]<>
 		[row]Точно не оригинальный аппарат. Кустарная модификация с заменой и расширением исходного функционала: современной технологией моментальных снимков и прикреплением к ним метаданных.[/row]<>
 		[row]Базовой моделью для модификации послужил «Polaróid 636 Closeup».[/row]<>
 	[/table]
 === function prothesis()
 	[title]Протез[/title]
 	[table]<>
-		[header]ИскИн - справка[/header]<>
+		[header]ArtIn - a reference[/header]<>
 		[row]Одна из поздних модификаций изделия ХФ-1312 «Спрут».[/row]<>
 		[row]В период 30-х годов — стандартное приращение для участников боевых действий, потерявших конечности ниже локтя. Реже — добровольная замена биологических рук.[/row]<>
 		[row]В исходном варианте: гаптическая обратная связь, стандартные протоколы подключения тактических ИскИнов, десятки вшитых сценариев при автономной работе.[/row]<>
@@ -476,7 +479,7 @@ LIST objs = (market_obj), (mecha_obj), (_67_obj), (jaipur_obj), (red_obj), (dog_
 === function aic()
 	[title]Айка[/title]
 	[table]<>
-		[header]ИскИн - справка[/header]<>
+		[header]ArtIn - a reference[/header]<>
 		[row]От «AIC» — «Artificial Intelligence Canine».[/row]<>
 		[row]Общее название программ модификации собак для применения в боевых действиях.[/row]<>
 		[row]Животные с физическими и когнитивными приращениями использовались там, где это было более экономически целесообразно, чем применение полностью искусственных агентов с аналогичными возможностями: в разведке, сапёрных работах, поиске раненых и тому подобном.[/row]<>
@@ -485,13 +488,13 @@ LIST objs = (market_obj), (mecha_obj), (_67_obj), (jaipur_obj), (red_obj), (dog_
 === function three()
 	[title]三足狗[/title]
 	[table]<>
-		[header]ИскИн - справка[/header]<>
+		[header]ArtIn - a reference[/header]<>
 		[row]«Трёхлапая собака» (кит. упр. 三足狗, пиньинь <i>sān zú gǒu</i>).[/row]<>
 	[/table]
 === function datamatrix()
 	[title]Датаматрица[/title]
 	[table]<>
-		[header]ИскИн - справка[/header]<>
+		[header]ArtIn - a reference[/header]<>
 		[row]Кофейные зёрна сорта Арабуста46.[/row]<>
 		[row]Номер патента: CN339981151.[/row]<>
 		[row]Завод-изготовитель: Агрокластер «Нэй-Мэнгу 11»[/row]<>
@@ -504,7 +507,7 @@ LIST objs = (market_obj), (mecha_obj), (_67_obj), (jaipur_obj), (red_obj), (dog_
 === function hydro()
 	[title]Café hidropônico de São Paulo[/title]
 	[table]<>
-		[header]ИскИн - справка[/header]<>
+		[header]ArtIn - a reference[/header]<>
 		[row]«Гидропонный кофе из Сан-Паулу» (порт. <i>Café hidropônico de São Paulo</i>).[/row]<>
 		[row]«Сан-Паулу», в данном случае, не место производства, а торговая марка. Гидропонные технологии позволяют выращивать нужные культуры в любых географиях.[/row]<>
 		[row]Среднегодовые температуры окружающей среды в мире не позволяют растить кофе большими урожаями. Натурально выращенный кофе относится к продуктам премиум-сегмента.[/row]<>
@@ -512,42 +515,49 @@ LIST objs = (market_obj), (mecha_obj), (_67_obj), (jaipur_obj), (red_obj), (dog_
 === function theft()
 	[title]158[/title]
 	[table]<>
-		[header]ИскИн - справка[/header]<>
+		[header]ArtIn - a reference[/header]<>
 		[row]Отсылка к старой редакции УК РФ, статье 158 «Кража».[/row]<>
 		[row]Территория находится вне федеральной юрисдикции, поэтому данная отсылка — лишь часть внутреннего культурного кода и криминальной традиции локальных преступных группировок.[/row]<>
 	[/table]
 === function devanagari()
 	[title]Деванагари[/title]
 	[table]<>
-		[header]ИскИн - справка[/header]<>
+		[header]ArtIn - a reference[/header]<>
 		[row]Слоговая азбука для записи самых распространённых индоарийских языков. В данном случае хинди.[/row]<>
 		[row]Анализ надписей показывает, что это лекарства традиционной индийской медицины — аюрведы.[/row]<>
 	[/table]
 === function cig()
 	[title]Сигареты[/title]
 	[table]<>
-		[header]ИскИн - справка[/header]<>
+		[header]ArtIn - a reference[/header]<>
 		[row]Сигареты марки «Двойное счастье» (кит. упр. 喜喜, лигатура 囍, пиньинь <i>shuāngxǐ</i>)[/row]<>
 		[row]Традиционно одна из самых дорогих марок, как правило, используется не для собственного курения, а в качестве подарка. Часто — как взятка.[/row]<>
+	[/table]
+=== function save()
+	[title]Спаси и сохрани[/title]
+	[table]<>
+		[header]ArtIn - a reference[/header]<>
+		[row]“Save and protect” (rus. <i>Спаси и сохрани</i>). A short Orthodox prayer — an appeal to God for protection from physical and spiritual dangers.[/row]<>
+		[row]Often engraved on rings and the reverse side of Orthodox crosses as a reminder of faith.[/row]<>
 	[/table]
 
 === function init_ph(obj, ref link, ref label)
 	{obj:
 	- market_obj:
 		~ link = -> market
-		~ label = "Рынок"
+		~ label = "Market"
 	- mecha_obj:
 		~ link = -> mecha
-		~ label = "Ме́ха"
+		~ label = "Mecha"
 	- _67_obj:
 		~ link = -> _67
-		~ label = "Не более 67%"
+		~ label = "No more than 67%"
 	- jaipur_obj:
 		~ link = -> jaipur
-		~ label = "Розовые пантеры Джайпура"
+		~ label = "Jaipur Pink Panthers"
 	- red_obj:
 		~ link = -> red
-		~ label = "Красные платки"
+		~ label = "Red kerchiefs"
 	- dog_obj:
 		~ link = -> dog
 		~ label = "三足狗"
@@ -556,10 +566,10 @@ LIST objs = (market_obj), (mecha_obj), (_67_obj), (jaipur_obj), (red_obj), (dog_
 		~ label = "Café hidropônico"
 	- _158_obj:
 		~ link = -> _158
-		~ label = "Один-пятьдесят восемь"
+		~ label = "One-fifty eight"
 	- pharm_obj:
 		~ link = -> pharm
-		~ label = "Фарм-принтер"
+		~ label = "Pharm-printer"
 	}
 
 === function init_doubles()
