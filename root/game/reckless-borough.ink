@@ -274,7 +274,7 @@ In place of its right foreleg — a titanium hemisphere on a thin, intricately 
 
 On the chest plate, over the barely discernible PMC emblem, someone has scratched a mocking [button=three]“三足狗”[/button].
 
-All that titanium and silicon must still be registered somewhere on orbital servers, thousands of times traded and thousands of times forgotten, archived with the note: “To be returned upon completion of service and/or death of the animal.”
+All these titanium and silicon must still be registered somewhere on orbital servers, thousands of times traded and thousands of times forgotten, archived with the note: “To be returned upon completion of service and/or death of the animal.”
 
 [css class=goto][link=photos]‹[/link][/css]
 + [photos] -> photos
@@ -415,129 +415,129 @@ Vyachelsav Dobranov<br>2025-26
 	{title}
 
 === function squat()
-	[title]Сквот[/title]
+	[title]Squat[/title]
 	[table]<>
 		[header]ArtIn - a reference[/header]<>
-		[row]Незаконные постройки на территории бывшей ТЭЦ-21 по адресу: Москва, ул. Ижорская, 9.[/row]<>
-		[row]ТЭЦ выведена из эксплуатации в 2031 году, с тех пор территория официально заброшена.[/row]<>
-		[row]С 2036 происходит стихийный самозахват маргинальными элементами, ускоренный послевоенным кризисом.[/row]<>
-		[row]Основная часть населения — беженцы с Индийского субконтинента и Юго-Восточной Азии.[/row]<>
-		[row]В прошлом году коллегией ЮИИ по САО г. Москвы принято решение по продаже территории бывшей ТЭЦ в собственность ▓▓▓▓▓▓▓▓▓▓▓▓▓▓ с установлением там корпоративного суверенитета.[/row]<>
-		[row]Ликвидация незаконного жилья и снос строений запланированы на будущий год.[/row]<>		
+		[row]НIllegal structures on the grounds of the former CHP-21 at the address: Moscow, 9 Izhorskaya Street.[/row]<>
+		[row]The plant was decommissioned in 2031; since then the territory has been officially abandoned.[/row]<>
+		[row]Starting in 2036, spontaneous squatting by marginalized elements has been underway, accelerated by the post-war crisis.[/row]<>
+		[row]The majority of the population are refugees from the Indian subcontinent and Southeast Asia.[/row]<>
+		[row]Last year, the JAI board of the Northern Administrative District of Moscow approved the sale of the former CHP-21 grounds to ▓▓▓▓▓▓▓▓▓▓▓▓▓▓ with the establishment of corporate sovereignty on the site.[/row]<>
+		[row]Demolition of illegal housing and razing of structures is scheduled for next year.[/row]<>		
 	[/table]
 
 === function pollen()
-	[title]Пыльца[/title]
+	[title]Pollen[/title]
 	[table]<>
 		[header]ArtIn - a reference[/header]<>
-		[row]Пыльца одной из мутаций берёзы пушистой. Появление новых, обильно пылящих, видов — побочный фактор глубокой генной модификации сельскохозяйственных культур на территории Китайской Сибири.[/row]<>
-		[row]В 2042 году создан межкорпоративный орган для поиска решений по сохранению «старых» видов флоры и купированию распространения новых.[/row]<>
+		[row]Pollen from one of the mutations of downy birch. The emergence of new, heavily pollinating species — a side effect of deep genetic modification of agricultural crops in Chinese Siberia.[/row]<>
+		[row]In 2042, an inter-corporate body was established to find solutions for preserving “old” flora species and containing the spread of new ones.[/row]<>
 	[/table]
 === function kabaddi()
-	[title]Кабадди[/title]
+	[title]Kabaddi[/title]
 	[table]<>
 		[header]ArtIn - a reference[/header]<>
-		[row]Командная игра с элементами борьбы и салок. Одна из древнейших известных игр, изначально распространённая среди народов Индии.[/row]<>
-		[row]Повсеместное распространение получила с потоками беженцев, расселившихся по миру.[/row]<>
-		[row]Популярность обусловлена так же отсутствием необходимого спортинвентаря — достаточно ровной прямоугольной площадки.[/row]<>
+		[row]A team sport combining elements of wrestling and tag. One of the oldest known games, originally widespread among the peoples of India.[/row]<>
+		[row]It spread globally with the flows of refugees who settled across the world.[/row]<>
+		[row]Its popularity is also due to the lack of required equipment — a flat rectangular court is all that’s needed.[/row]<>
 	[/table]
 === function jpp()
 	[title]Jaipur Pink Panthers[/title]
 	[table]<>
 		[header]ArtIn - a reference[/header]<>
-		[row]Изначально, JPP — команда Профессиональной Лиги Кабадди из Джайпура, штат Раджастхан, Индия.[/row]<>
-		[row]До закрытия «старой» Лиги — обладательница пяти чемпионских титулов.[/row]<>
-		[row]После воссоздания ПЛК в 2036 году трижды выходила в полуфинал, но титулы не выигрывала.[/row]<>
-		[row]Характерна агрессивной игрой с упором на силовые и акробатические приёмы. Соотношение физических и когнитивных приращений у игроков: 64/36.[/row]<>
-		[row]Штаб-квартира расположена в городе Перт, Западная Австралия. Главным спонсором выступает конгломерат «Маккуори-COSCO Юг».[/row]<>
+		[row]Originally, JPP — a Professional Kabaddi League team from Jaipur, Rajasthan, India.[/row]<>
+		[row]Before the closure of the “old” League — five-time champion.[/row]<>
+		[row]After the PKL’s revival in 2036, they reached the semifinals three times but never reclaimed the titles.[/row]<>
+		[row]ХKnown for aggressive play emphasizing power moves and acrobatics. Physical-to-cognitive augmentation ratio among players: 64/36.[/row]<>
+		[row]Headquartered in Perth, Western Australia. Primary sponsor: the Macquarie-COSCO South conglomerate.[/row]<>
 	[/table]
 === function logos()
-	[title]Лого[/title]
+	[title]Logos[/title]
 	[table]<>
 		[header]ArtIn - a reference[/header]<>
-		[row]«Xianbeilia Agricultural Equipment»[/row]<>
-		[row]«Bayer CropScience»[/row]<>
-		[row]«COFCO Россия»[/row]<>
+		[row]“Xianbeilia Agricultural Equipment”[/row]<>
+		[row]“Bayer CropScience”[/row]<>
+		[row]“COFCO Russia”[/row]<>
 	[/table]
 === function polaroid()
-	[title]Полароид[/title]
+	[title]Polaroid[/title]
 	[table]<>
 		[header]ArtIn - a reference[/header]<>
-		[row]Точно не оригинальный аппарат. Кустарная модификация с заменой и расширением исходного функционала: современной технологией моментальных снимков и прикреплением к ним метаданных.[/row]<>
-		[row]Базовой моделью для модификации послужил «Polaróid 636 Closeup».[/row]<>
+		[row]ТNot an original device. A custom modification with replaced and expanded original functionality: modern instant photography technology and metadata attachment.[/row]<>
+		[row]The base model for the modification was the “Polaróid 636 Closeup”.[/row]<>
 	[/table]
 === function prothesis()
-	[title]Протез[/title]
+	[title]Prosthetic[/title]
 	[table]<>
 		[header]ArtIn - a reference[/header]<>
-		[row]Одна из поздних модификаций изделия ХФ-1312 «Спрут».[/row]<>
-		[row]В период 30-х годов — стандартное приращение для участников боевых действий, потерявших конечности ниже локтя. Реже — добровольная замена биологических рук.[/row]<>
-		[row]В исходном варианте: гаптическая обратная связь, стандартные протоколы подключения тактических ИскИнов, десятки вшитых сценариев при автономной работе.[/row]<>
-		[row]Так как протез используется вне военной сферы, очевидно, установлена кустарная прошивка.[/row]<>
-		[row]Физический серийный номер сбит, цифровые метки, скорее всего, тоже очищены.[/row]<>
+		[row]One of the late modifications of the HF-1312 “Octopus” hardware.[/row]<>
+		[row]During the 2030s — a standard augmentation for combat veterans who lost limbs below the elbow. Less commonly — a voluntary replacement of biological hands.[/row]<>
+		[row]In the original variant: haptic feedback, standard protocols for connecting tactical ArtIns, dozens of embedded scenarios for autonomous operation.[/row]<>
+		[row]ТSince the prosthetic is in use outside the military domain, a custom firmware has clearly been installed.[/row]<>
+		[row]The physical serial number has been filed off; digital tags are most likely wiped clean as well.[/row]<>
 	[/table]
 === function aic()
-	[title]Айка[/title]
+	[title]Aicah[/title]
 	[table]<>
 		[header]ArtIn - a reference[/header]<>
-		[row]От «AIC» — «Artificial Intelligence Canine».[/row]<>
-		[row]Общее название программ модификации собак для применения в боевых действиях.[/row]<>
-		[row]Животные с физическими и когнитивными приращениями использовались там, где это было более экономически целесообразно, чем применение полностью искусственных агентов с аналогичными возможностями: в разведке, сапёрных работах, поиске раненых и тому подобном.[/row]<>
-		[row]Данный экземпляр, судя по приращениям, был частью так называемой «штурмовой стаи» — группы собак, управляемых одним тактическим ИскИном. Такие стаи первыми запускались на позиции противника в условиях плотной городской застройки.[/row]<>
+		[row]From “AIC” — “Artificial Intelligence Canine.”[/row]<>
+		[row]A general term for dogs’ modifying programs to use them in combat operations.[/row]<>
+		[row]Animals with physical and cognitive augmentations were deployed where it was more economically viable than employing fully artificial agents with comparable capabilities: reconnaissance, sapper operations, casualty search, and the like.[/row]<>
+		[row]This specimen, judging by its augmentations, was part of the so-called “assault pack” — a group of dogs controlled by a single tactical ArtIn. Such packs were the first to be sent into enemy positions in dense urban environments.[/row]<>
 	[/table]
 === function three()
 	[title]三足狗[/title]
 	[table]<>
 		[header]ArtIn - a reference[/header]<>
-		[row]«Трёхлапая собака» (кит. упр. 三足狗, пиньинь <i>sān zú gǒu</i>).[/row]<>
+		[row]“Three-legged dog” (simplified Chinese: 三足狗, pinyin: <i>sān zú gǒu</i>).[/row]<>
 	[/table]
 === function datamatrix()
-	[title]Датаматрица[/title]
+	[title]Datamatrix[/title]
 	[table]<>
 		[header]ArtIn - a reference[/header]<>
-		[row]Кофейные зёрна сорта Арабуста46.[/row]<>
-		[row]Номер патента: CN339981151.[/row]<>
-		[row]Завод-изготовитель: Агрокластер «Нэй-Мэнгу 11»[/row]<>
-		[row]Степень обжарки: итальянская.[/row]<>
-		[row]Масса нетто: 498 г.[/row]<>
-		[row]Количество зёрен: 2357.[/row]<>
-		[row]Дата изготовления: 204410240315.[/row]<>
-		[row]Срок годности: 24 месяца.[/row]<>
+		[row]Arabusta46 coffee beans.[/row]<>
+		[row]Patent number: CN339981151.[/row]<>
+		[row]Manufacturer: “Nei-Menggu 11” agrocluster[/row]<>
+		[row]Roast level: Italian.[/row]<>
+		[row]Net weight: 498 g.[/row]<>
+		[row]Number of beans: 2,357.[/row]<>
+		[row]Date of manufacture: 204410240315.[/row]<>
+		[row]Shelf life: 24 months.[/row]<>
 	[/table]
 === function hydro()
 	[title]Café hidropônico de São Paulo[/title]
 	[table]<>
 		[header]ArtIn - a reference[/header]<>
-		[row]«Гидропонный кофе из Сан-Паулу» (порт. <i>Café hidropônico de São Paulo</i>).[/row]<>
-		[row]«Сан-Паулу», в данном случае, не место производства, а торговая марка. Гидропонные технологии позволяют выращивать нужные культуры в любых географиях.[/row]<>
-		[row]Среднегодовые температуры окружающей среды в мире не позволяют растить кофе большими урожаями. Натурально выращенный кофе относится к продуктам премиум-сегмента.[/row]<>
+		[row]“Hydroponic coffee from São Paulo” (Portuguese: <i>Café hidropônico de São Paulo</i>).[/row]<>
+		[row]“São Paulo” in this case is not a place of production but a trademark. Hydroponic technologies allow the required crops to be grown in any geography.[/row]<>
+		[row]Global average ambient temperatures do not permit large-scale coffee cultivation. Naturally grown coffee is a premium-segment product.[/row]<>
 	[/table]
 === function theft()
 	[title]158[/title]
 	[table]<>
 		[header]ArtIn - a reference[/header]<>
-		[row]Отсылка к старой редакции УК РФ, статье 158 «Кража».[/row]<>
-		[row]Территория находится вне федеральной юрисдикции, поэтому данная отсылка — лишь часть внутреннего культурного кода и криминальной традиции локальных преступных группировок.[/row]<>
+		[row]A reference to an old edition of the Russian Criminal Code, Article 158 “Theft.”[/row]<>
+		[row]The territory lies outside federal jurisdiction, so this reference is merely part of the internal cultural code and criminal tradition of local gangs.[/row]<>
 	[/table]
 === function devanagari()
-	[title]Деванагари[/title]
+	[title]Devanagari[/title]
 	[table]<>
 		[header]ArtIn - a reference[/header]<>
-		[row]Слоговая азбука для записи самых распространённых индоарийских языков. В данном случае хинди.[/row]<>
-		[row]Анализ надписей показывает, что это лекарства традиционной индийской медицины — аюрведы.[/row]<>
+		[row]A syllabic script used to write the most common Indo-Aryan languages. In this case, Hindi.[/row]<>
+		[row]Analysis of the inscriptions reveals that these are medicines of traditional Indian medicine — Ayurveda.[/row]<>
 	[/table]
 === function cig()
-	[title]Сигареты[/title]
+	[title]Cigarettes[/title]
 	[table]<>
 		[header]ArtIn - a reference[/header]<>
-		[row]Сигареты марки «Двойное счастье» (кит. упр. 喜喜, лигатура 囍, пиньинь <i>shuāngxǐ</i>)[/row]<>
-		[row]Традиционно одна из самых дорогих марок, как правило, используется не для собственного курения, а в качестве подарка. Часто — как взятка.[/row]<>
+		[row]“Double Happiness” cigarettes (simplified Chinese: 喜喜, ligature: 囍, pinyin: <i>shuāngxǐ</i>)[/row]<>
+		[row]Traditionally one of the most expensive brands, typically not smoked personally but given as a gift. Often used as a bribe.[/row]<>
 	[/table]
 === function save()
 	[title]Спаси и сохрани[/title]
 	[table]<>
 		[header]ArtIn - a reference[/header]<>
-		[row]“Save and protect” (rus. <i>Спаси и сохрани</i>). A short Orthodox prayer — an appeal to God for protection from physical and spiritual dangers.[/row]<>
+		[row]“Save and protect” (Russian: <i>Спаси и сохрани</i>). A short Orthodox prayer — an appeal to God for protection from physical and spiritual dangers.[/row]<>
 		[row]Often engraved on rings and the reverse side of Orthodox crosses as a reminder of faith.[/row]<>
 	[/table]
 
